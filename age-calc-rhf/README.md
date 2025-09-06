@@ -54,13 +54,13 @@ A aplicação foi desenvolvida utilizando **React + TypeScript + Tailwind CSS + 
 1. Clone o repositório:
 
    ```bash
-   git clone https://github.com/seu-usuario/age-calculator-app.git
+   git clone https://github.com/Nathalia1234/age-calculator-react-ts/tree/main/age-calc-rhf
    ```
 
 2. Entre na pasta do projeto:
 
    ```bash
-   cd age-calculator-app
+   cd age-calc-rhf
    ```
 
 3. Instale as dependências:
