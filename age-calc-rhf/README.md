@@ -84,4 +84,4 @@ A aplicação foi desenvolvida utilizando **React + TypeScript + Tailwind CSS + 
 
 ## 🌐 Deploy
 
-Este projeto está disponível no Vercel: https://age-calculator-react-ts.vercel.app/
+Este projeto está disponível no Vercel: [https://age-calculator-react-ts.vercel.app/](https://age-calculator-react-ts.vercel.app/)
