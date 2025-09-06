@@ -1,6 +1,19 @@
+/* 
+  Este arquivo importa as diretivas base do Tailwind CSS.
+  Elas são processadas pelo compilador do Tailwind e geram as classes utilitárias.
+*/
+
+/* Estilos base do Tailwind (reset de estilos + estilos globais mínimos) */
 @tailwind base;
+/* Camada de componentes reutilizáveis do Tailwind (ex.: botões, formulários) */
 @tailwind components;
+/* Camada de utilitários do Tailwind (classes como p-4, bg-red-500, flex, etc.) */
 @tailwind utilities;
+
+/* 
+  Definição de variáveis CSS personalizadas para cores usadas na aplicação.
+  Essas variáveis podem ser utilizadas em qualquer lugar do CSS.
+*/
 
 :root {
   --accent: #8a5cf6;
