@@ -21,7 +21,6 @@ A aplicação foi desenvolvida utilizando **React + TypeScript + Tailwind CSS + 
   - `Card` → container principal do layout
   - `Input` → inputs com label, placeholder e mensagem de erro
   - `ArrowButton` → botão de envio com ícone em SVG
-  - `ClearButton` → botão para limpar o formulário
   - `Results` → exibe a idade em anos, meses e dias
 - **Hooks utilizados**:
   - `useState`
