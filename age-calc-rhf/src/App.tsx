@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useForm } from "react-hook-form";
-import Card from "./components/card";
+import Card from "./components/Card";
 import Input from "./components/ui/Input";
 import ArrowButton from "./components/ArrowButton";
 import Results from "./components/Results";
