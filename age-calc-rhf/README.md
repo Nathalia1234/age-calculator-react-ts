@@ -1,14 +1,40 @@
-# Age Calculator App
+# Age Calculator - React + TypeScript + RHF + Tailwind
 
-Este projeto é a minha solução para o desafio [Age Calculator App](https://www.frontendmentor.io/challenges/age-calculator-app-dF9DFFpj-Q) do **Frontend Mentor**.
+Este projeto é a minha solução para o desafio [Age Calculator App](https://www.frontendmentor.io/challenges/age-calculator-app-dF9DFFpj-Q) do **Frontend Mentor** com mais alguns incrementos solicitados pelo professor na matéria de Desenvolvimento FullStack.
 
-A aplicação foi desenvolvida utilizando **React + TypeScript + Tailwind CSS + React Hook Form**.
+A aplicação calcula idade em anos, meses e dias a partir de uma data de nascimento.
 
-> Obs.: O layout e os textos foram mantidos em **inglês** para garantir fidelidade ao design original do desafio.
+Projeto construído com React + TypeScript, TailwindCSS e React Hook Form (com Zod para validação).
+
+O layout foi mantido em inglês para garantir fidelidade ao desafio do Frontend Mentor.
 
 ---
 
-## ✨ Funcionalidades
+## 🔗 Deploy
+
+Produção (Vercel): [https://age-calculator.nathaliaohana.dev](https://age-calculator.nathaliaohana.dev)
+
+Subdomínio próprio configurado conforme solicitado na tarefa.
+
+---
+
+## ✅ Funcionalidades Atuais
+
+- O usuário informa dia, mês e ano de nascimento.
+
+- A aplicação calcula automaticamente anos, meses e dias de idade.
+
+- Validação completa de formulário com Zod.
+
+- Mensagens de erro dinâmicas.
+
+- Responsividade testada em múltiplos dispositivos.
+
+- Layout em inglês para manter fidelidade ao desafio original.
+
+---
+
+## ✨ Estrutura da Solução
 
 - Campos de entrada para **Day / Month / Year**
 - **Validação de formulário**:
@@ -20,16 +46,20 @@ A aplicação foi desenvolvida utilizando **React + TypeScript + Tailwind CSS + 
 - **Componentização**:
   - `Card` → container principal do layout
   - `Input` → inputs com label, placeholder e mensagem de erro
-  - `ArrowButton` → botão de envio com ícone em SVG
+  - `ArrowButton` → botão de envio com ícone de seta em SVG
   - `Results` → exibe a idade em anos, meses e dias
 - **Hooks utilizados**:
-  - `useState`
-  - `useEffect`
-  - `useForm` (React Hook Form)
+  - `useState`: Controle de anos/meses/dias calculados.
+  - `useEffect`: Para pequenos resets/efeitos.
+  - `useForm` (React Hook Form): registro dos inputs, submit, erros.
 - **Design responsivo**:
   - Mobile (a partir de 320px)
   - Tablet (540px / 768px)
   - Desktop (≥ 1024px)
+- **Acessibilidade**:
+  - Campos com **aria-invalid** quando há erro.
+  - Mensagens vinculadas via **aria-describedby**.
+  - Resultados com região **aria-live** para leitura por leitores de tela.
 
 ---
 
@@ -39,7 +69,7 @@ A aplicação foi desenvolvida utilizando **React + TypeScript + Tailwind CSS + 
 
 ---
 
-## 🚀 Tecnologias utilizadas
+## 🚀 Stack & Bibliotecas
 
 - [React](https://react.dev/)
 - [TypeScript](https://www.typescriptlang.org/)
@@ -81,6 +111,4 @@ A aplicação foi desenvolvida utilizando **React + TypeScript + Tailwind CSS + 
    http://localhost:5173/
    ```
 
-## 🌐 Deploy
-
-Este projeto está disponível no Vercel: [https://age-calculator-react-ts.vercel.app/](https://age-calculator-react-ts.vercel.app/)
+Obs.: Se você clonou o projeto, lembre de rodar **npm install** antes de **npm run dev**, pois **node_modules** não vem no Git.

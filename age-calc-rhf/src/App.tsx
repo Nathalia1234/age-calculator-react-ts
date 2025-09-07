@@ -200,6 +200,10 @@ export default function App() {
         {/* Resultados (anos, meses, dias) */}
         <Results years={age.years} months={age.months} days={age.days} />
       </Card>
+      {/* Créditos no rodapé, centralizado e discreto */}
+      <p className="mt-8 text-center text-xs text-purple-500">
+        Created by <span className="font-semibold">Nathalia Ohana</span>
+      </p>
     </div>
   );
 }

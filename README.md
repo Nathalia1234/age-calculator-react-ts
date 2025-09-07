@@ -1,4 +1,6 @@
-## 📂 Código da solução
+## 📂 Calculadora de Idade (Age Calculator)
+
+O desafio foi baseado no Frontend Mentor e adaptado para fins acadêmicos.
 
 O código-fonte completo está dentro da pasta **age-calc-rhf**:
 
@@ -7,6 +9,7 @@ O código-fonte completo está dentro da pasta **age-calc-rhf**:
 - ▶️ [Demo na Vercel](https://age-calculator-react-ts.vercel.app/)
 
 Atalhos úteis:
+
 - [`App.tsx`](./age-calc-rhf/src/App.tsx)
 - [`components/`](./age-calc-rhf/src/components/)
 - [`lib/diff.ts`](./age-calc-rhf/src/lib/diff.ts)
