@@ -1,6 +1,6 @@
 ## 📂 Calculadora de Idade (Age Calculator)
 
-O desafio foi baseado no Frontend Mentor e adaptado para fins acadêmicos.
+O desafio foi baseado no Frontend Mentor.
 
 O código-fonte completo está dentro da pasta **age-calc-rhf**:
 
