@@ -14,8 +14,6 @@ O layout foi mantido em inglês para garantir fidelidade ao desafio do Frontend 
 
 Produção (Vercel): [https://age-calculator.nathaliaohana.dev](https://age-calculator.nathaliaohana.dev)
 
-Subdomínio próprio configurado conforme solicitado na tarefa.
-
 ---
 
 ## ✅ Funcionalidades Atuais
