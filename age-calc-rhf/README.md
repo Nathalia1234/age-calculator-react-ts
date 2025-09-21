@@ -1,6 +1,6 @@
 # Age Calculator - React + TypeScript + RHF + Tailwind
 
-Este projeto é a minha solução para o desafio [Age Calculator App](https://www.frontendmentor.io/challenges/age-calculator-app-dF9DFFpj-Q) do **Frontend Mentor** com mais alguns incrementos solicitados pelo professor na matéria de Desenvolvimento FullStack.
+Este projeto é a minha solução para o desafio [Age Calculator App](https://www.frontendmentor.io/challenges/age-calculator-app-dF9DFFpj-Q) do **Frontend Mentor**.
 
 A aplicação calcula idade em anos, meses e dias a partir de uma data de nascimento.
 
