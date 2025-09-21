@@ -12,7 +12,7 @@ O layout foi mantido em inglês para garantir fidelidade ao desafio do Frontend 
 
 ## 🔗 Deploy
 
-Produção (Vercel): [https://age-calculator.nathaliaohana.dev](https://age-calculator.nathaliaohana.dev)
+Produção (Vercel): [Acesse aqui o projeto em produção](https://age-calculator.nathaliaohana.dev)
 
 ---
 
